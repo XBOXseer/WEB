@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: darkslategrey;
+    padding: 35px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_theme {
+    padding: 14px 60px 14px 18px;
+    border-radius: 100px;
+    position: relative;
+    min-width: 120px;
+    max-height: 18px;
+    display: inline-block;
+}
+
+.main_expression {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cadetblue;
+    border-radius: 100px;
+    padding: 14px 18px 14px 18px;
+    min-width: 120px;
+    max-height: 18px;
+    display: inline-block;
+}
+
+.content_container {
+    width: var(--content-width);
+    /*height: var(--content-height);*/
+    height: 700px;
+    order: 2;
+}
+
+.flex_parent {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main {
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+.left_sect {
+    flex-grow: 1;
+    width: 25%;
+    height: var(--content-heigh);
+}
+
+.aside_content1 {
+    width: 100%;
+    height: 25%;
+    font-size: 0.85rem;
+    flex-direction: column;
+}
+
+.aside_content2 {
+    width: 100%;
+    height: 75%;
+    font-size: 0.85rem;
+    flex-direction: column;
+}
+
+.aside {
+    justify-content: left;
+    background-color: cadetblue;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+}
+
+.fade {
+    transition: background-color 0.5s;
+}
+
+aside {
+    display: block;
+}
+
+.aside h5 {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    border: 5px solid red;
+}
+
+.aside-2 {
+    background-color: darkseagreen;
+}
+
+.page_content {
+    justify-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: rgb(56, 97, 133);
+    width: 50%;
+    /*height: var(--content-height);*/
+    height: 700px;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+
+.flex_center {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    display: block;
+}
+
+.map_7kingdoms {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 450px;
+    order: -1;
+}
+
+.Kingdoms {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    order: -1;
+}
+
+.page_content p {
+    order: -1;
+}
+
+.under_block {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(108, 125, 158);
+}
+
+
+
+.aside_menu {
+    background-color: rgb(128, 43, 43);
+    order: 2;
+    width: 25%;
+    height: var(--content-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 106, 125);
+    width: 100%;
+    height: 100px;
+}
